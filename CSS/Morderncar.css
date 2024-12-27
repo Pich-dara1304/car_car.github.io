@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+.navbar{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+.hoker{
+    box-shadow: 6.5px 6.5px 5px gainsboro;
+    background-color: rgb(238, 236, 236);
+    width: 100%;
+    height: 460px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.hoker figure{
+    width: 100%;
+    height: 300px;
+    margin-bottom: -10px;
+}
+.card-body{
+    width: 100%;
+    height: 125px;
+}
+
+.card-text{
+    margin-top: 10px;
+    font-size: 12.5px;
+    display: -webkit-box;
+    /*-webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;*/
+    overflow: hidden;
+}
+.card-footer{
+    margin-top: 0px;
+}
